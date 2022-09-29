@@ -9,14 +9,26 @@
 <body>
     <h1>Inputs Básicos</h1>
 
-    <form action="/htmls/inputs_basicos.html" method="post">
+    <form action="www.globo.com" method="post">
         <label>Nome</label> <br>
 
-        <input type="text" name="nome" class="" id=""/><br>
+        <input placeholder="Insira seu nome" type="text" name="nome" class="" id=""/><br>
 
         <label>Senha</label><br>
-        <input type="password" name="senha"/><br>
+        <input placeholder="Insira sua senha" type="password" name="senha"/><br>
 
+        <br><br>
+
+        <label>Time</label>
+        <input type="text" placeholder="Insira seu time" name="time" list="lista_times"/>
+        <datalist id="lista_times">
+            <option value="Santos" />
+            <option value="Palmeiras" />
+            <option value="Corinthians" />
+            <option value="Flamengo" />
+
+        </datalist>
+        <br><br>
         <label>Opcões</label><br>
         <input type="radio" name="opcao">A
         <input type="radio" name="opcao">B
@@ -28,16 +40,16 @@
         <input type="checkbox" name="multiplo">3 <br>
 
         <label>Texto</label><br>
-        <textarea name="texto" id="" cols="100" rows="10"></textarea><br>
+        <textarea placeholder="Por favor digite um texto" name="texto" id="" cols="100" rows="10"></textarea><br>
         
         <label>Arquivo</label><br>
         <input type="file" name="arquivo" id=""><br><br>
 
         <label>Sexo</label><br>
         <select name="sexo" id="">
-            <option value="">Selecione</option>
+            <option selected value="">Selecione</option>
             <option value="masculino">Masculino</option>
-            <option selected value="feminino">Feminino</option>    
+            <option value="feminino">Feminino</option>    
         </select><br><br>
 
         <label>Marcas de Carros</label><br>
@@ -51,7 +63,10 @@
                 <option value="saab">Saab</option>
             </optgroup>
         </select>
-
+        <br><br>
+        <input type="button" value="Botao sem acao"><br><br>
+        <input type="submit" value="Enviar">
     </form>
+    
 </body>
 </html>
