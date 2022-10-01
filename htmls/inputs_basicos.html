@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inputs Basicos</title>
+    <style>
+        section{
+            border: solid 1px #000;
+        }
+    </style>
 </head>
 <body>
+    <section>
     <h1>Inputs Básicos</h1>
+    </section>
 
+    <hr>
+
+    <section>
     <form action="www.globo.com" method="post">
         <label>Nome</label> <br>
 
@@ -47,7 +57,7 @@
 
         <label>Sexo</label><br>
         <select name="sexo" id="">
-            <option selected value="">Selecione</option>
+            <option disabled="disabled" selected value="">Selecione</option>
             <option value="masculino">Masculino</option>
             <option value="feminino">Feminino</option>    
         </select><br><br>
@@ -67,6 +77,7 @@
         <input type="button" value="Botao sem acao"><br><br>
         <input type="submit" value="Enviar">
     </form>
+    </section>
     
 </body>
 </html>
