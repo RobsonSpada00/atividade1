@@ -16,6 +16,7 @@
         input{
             display: block;
             margin-bottom: 20px;
+            background-color: seagreen;
         }
         label{
             font-weight: bold;
@@ -23,6 +24,10 @@
         }
         .tracejado {
             border: dashed 2px #000;
+            background-color: steelblue;
+        }
+        #campo_email{
+            height: 45px;
         }
     </style>
 </head>
@@ -35,10 +40,11 @@
         <input type="text" name="nome">
         
         <label>Email</label>
-        <input class="tracejado" type="email" name="email">
+        <input class="tracejado" id="campo_email" type="email" name="email">
 
         <label>Senha</label>
         <input class="tracejado" type="password" name="senha">
+
     </form>
 
 </body>
