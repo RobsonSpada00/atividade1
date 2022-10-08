@@ -6,15 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo 2 - CSS</title>
     <style>
+        body{
+            background-color: salmon;
+        }
         h1{
             color: red;
             font-size: 45px;
         }
-
+        input{
+            display: block;
+            margin-bottom: 20px;
+        }
+        label{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .tracejado {
+            border: dashed 2px #000;
+        }
     </style>
 </head>
 <body>
     <!-- CSS - Embarcado  -->
     <h1>Exemplo CSS 2</h1>
+
+    <form action="" method="post">
+        <label>Nome</label>
+        <input type="text" name="nome">
+        
+        <label>Email</label>
+        <input class="tracejado" type="email" name="email">
+
+        <label>Senha</label>
+        <input class="tracejado" type="password" name="senha">
+    </form>
+
 </body>
 </html>
