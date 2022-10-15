@@ -1,6 +1,8 @@
 body{
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
+    height: auto; 
+    width: auto;
 }
 
 .imagem-fundo {  
@@ -25,10 +27,25 @@ body{
 .titulo{
     position:absolute;
     color: white;
-    font-size: 5vw;
+    font-size: 3rem;
     max-height: 650px;
     top: 10%;
     left: 25%;
     text-align: center;
     
+    
 }
+.titulo2{
+    position:absolute;
+    color: white;
+    font-size: clamp(2em, 2em + 1vw, 1.5em);
+    max-height: 650px;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+}
+@media(min-width: 425px) {
+    p {
+     font-size: 25px;
+    }
+   }
