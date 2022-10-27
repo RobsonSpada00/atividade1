@@ -1,12 +1,10 @@
-body
-    {
+body{
         margin: 0px;
         border: 0px;
         padding: 0px;
     
     }
-#fundotopo > img
-    {
+#fundotopo > img{
         position: relative;
         width: 100%;
         height: 680px;
@@ -14,15 +12,13 @@ body
 
     }
 
-.teladefundo
-    {
+.teladefundo{
         width: 100%;
         height: 680px;
         background-color: #00000099;
         position: absolute;
     }
-.logo
-   {
+.logo{
         display: flex;
         height: 100px;
         align-self: center;  
@@ -30,17 +26,18 @@ body
         position: relative;
         margin-left: 4%;
     }
+
 .texto{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     color: white;
-    position: relative;
-    margin-top: -90px;
-    } 
- .texto > h1 {
-    font-family: Arial, Helvetica, sans-serif ;
-    font-size: 50px;
+}    
+ 
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    text-align: center;
+    
+ }
+p{
+    color: white;
     text-align: center;
  }      
