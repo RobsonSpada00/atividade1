@@ -31,9 +31,7 @@ body{
         color: white;
         position: relative;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+               
     }   
  
 .texto > h1 {
